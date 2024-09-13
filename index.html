@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/carta.png" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre um tesouro escondido. Nessa carta, o autor deixa algumas pistas para encontrar esse tesouro e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Navegar pelo oceano</button>
+            <button class="btn-proximo" data-proximo="2">Visitar monumentos históricos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/oceano.png" alt="">
+            <p>Você rouba um barco e foge para o mar em busca de pistas. Você está com medo e pensando se deve desistir de encontrar o tesouro</p>
+            <button class="btn-proximo" data-proximo="3">Continuar navegando</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="" alt="">
+            <p>Pensando um pouco, você fica em dúvida entre qual monumento procurar as pistas. Em qual você deve ir primeiro</p>
+            <button class="btn-proximo" data-proximo="5">Muralha da China</button>
+            <button class="btn-proximo" data-proximo="6">Pirâmides do Egito</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/casa.png" alt="">
+            <p>Após um tempo navegando, você decide parar em uma pequena ilha, por acaso, havia uma casa no meio dessa ilha</p>
+            <button class="btn-proximo" data-proximo="8">Entrar na casa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cela.png" alt="">
+            <p>Você decide voltar, é preso por ter roubado um barco e fica sem nada.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/muralha.jpg" alt="">
+            <p>Durante dias você caminha por toda a muralha da China, até finalmente encontrar um mapa, te guiando para o meio de uma floresta </p>
+            <button class="btn-proximo" data-proximo="7">Seguir o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/hie.jpg" alt="">
+            <p>Você encontra diversos hieróglifos, mas não sabe ler nenhum, sua única opção é visitar outro lugar</p>
+            <button class="btn-proximo" data-proximo="5">Ir para a muralha da China</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/caminho.png" alt="">
+            <p>O mapa te levou até a floresta, mas um urso te atacou e você perdeu o mapa enquanto fugia, há dois caminhos para seguir</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/mapa.png" alt="">
+            <p>Dentro da casa um homem velho te dá um mapa para um lugar desconhecido.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir mapa</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/luz.png" alt="">
+            <p>Conforme você anda, uma forte luz se intensifica, o tesouro está próximo</p>
+            <button class="btn-proximo" data-proximo="11">Andar na direção da luz</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/lapide.png" alt="">
+            <p>Seguindo esse caminho, você da de cara com o urso, mas dessa vez ele te alcança, infelizmente a jornada terminou.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/zoio.jpg" alt="">
+            <p>Chegando no tão esperado lugar, você percebe a burrice que foi seguir uma carta aleatória, todas as pistas e pessoas faziam parte de uma grande trolada, no final havia apenas um papel escrito "by everson zoio"</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
